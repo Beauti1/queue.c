@@ -58,7 +58,7 @@ display()
 		printf("Queue elements: \n");
 		while(q!=NULL)
 		{
-			printf("%d ",q->data);
+			printf("%d\n",q->data);
 			q=q->next;
 		}
 		printf("\n");
