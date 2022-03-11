@@ -41,6 +41,7 @@ delete()
     	front=front->next;
     	free(temp);
     }
+    printf("\n");
 }
 
 display()
